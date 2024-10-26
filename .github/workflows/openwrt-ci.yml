@@ -136,7 +136,7 @@ jobs:
           # CONFIG_PACKAGE_libtasn1 is not set
           # CONFIG_PACKAGE_libtirpc is not set
           # CONFIG_PACKAGE_liburing is not set
-          CONFIG_PACKAGE_libustream-mbedtls=y
+          # CONFIG_PACKAGE_libustream-mbedtls=y
           CONFIG_PACKAGE_libyaml=y
           CONFIG_PACKAGE_luci-app-advanced-reboot=m
           CONFIG_PACKAGE_luci-app-cshark=y
