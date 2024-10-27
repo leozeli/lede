@@ -74,6 +74,7 @@ jobs:
           CONFIG_MBEDTLS_NIST_KW_C=y
           CONFIG_MBEDTLS_RSA_NO_CRT=y
           CONFIG_OPENSSH_LIBFIDO2=y
+          # CONFIG_PACKAGE_apk-openssl=y
           # CONFIG_PACKAGE_attr is not set
           # CONFIG_PACKAGE_automount is not set
           # CONFIG_PACKAGE_autosamba is not set
@@ -136,8 +137,8 @@ jobs:
           # CONFIG_PACKAGE_libtasn1 is not set
           # CONFIG_PACKAGE_libtirpc is not set
           # CONFIG_PACKAGE_liburing is not set
-          # CONFIG_PACKAGE_libustream-mbedtls is not set
-          CONFIG_PACKAGE_libustream-openssl=y
+          CONFIG_PACKAGE_libustream-mbedtls=y
+          # CONFIG_PACKAGE_libustream-openssl is not set
           CONFIG_PACKAGE_libyaml=y
           CONFIG_PACKAGE_luci-app-advanced-reboot=m
           CONFIG_PACKAGE_luci-app-cshark=y
