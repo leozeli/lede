@@ -124,7 +124,7 @@ jobs:
           CONFIG_PACKAGE_libeudev=y
           # CONFIG_PACKAGE_libexpat is not set
           CONFIG_PACKAGE_libfido2=y
-          CONFIG_PACKAGE_libmbedtls=m
+          CONFIG_PACKAGE_libmbedtls=y
           CONFIG_PACKAGE_libnetfilter-conntrack=y
           CONFIG_PACKAGE_libnetfilter-cthelper=y
           CONFIG_PACKAGE_libnetfilter-cttimeout=y
@@ -136,7 +136,8 @@ jobs:
           # CONFIG_PACKAGE_libtasn1 is not set
           # CONFIG_PACKAGE_libtirpc is not set
           # CONFIG_PACKAGE_liburing is not set
-          # CONFIG_PACKAGE_libustream-mbedtls=y
+          CONFIG_PACKAGE_libustream-mbedtls=y
+          # CONFIG_PACKAGE_libustream-openssl is not set
           CONFIG_PACKAGE_libyaml=y
           CONFIG_PACKAGE_luci-app-advanced-reboot=m
           CONFIG_PACKAGE_luci-app-cshark=y
