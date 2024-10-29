@@ -93,11 +93,9 @@ jobs:
           # CONFIG_PACKAGE_liburing is not set
           CONFIG_PACKAGE_libustream-mbedtls=y
           CONFIG_PACKAGE_libyaml=y
-          CONFIG_PACKAGE_luci-app-cshark=y
           CONFIG_PACKAGE_luci-app-mosdns=y
           CONFIG_PACKAGE_luci-app-openclash=y
           # CONFIG_PACKAGE_luci-app-samba4 is not set
-          CONFIG_PACKAGE_luci-i18n-cshark-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-mosdns-zh-cn=y
           CONFIG_PACKAGE_ruby=y
           CONFIG_PACKAGE_ruby-bigdecimal=y
